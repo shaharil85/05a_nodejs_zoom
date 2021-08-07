@@ -48,7 +48,6 @@ io.on('connection', (socket) => {
         io.emit('users-changed', { user: name, event: 'joined' });
         //console.log('Connected: ', list_join);
     });
-
     socket.on('set-camera', (name, enabled) => {
         for (var i = 0; i < list_join.length; i++) {
             if (list_join[i] == name) {
@@ -63,7 +62,6 @@ io.on('connection', (socket) => {
         io.emit('request-camera', { user: enable_camera });
         console.log('request-camera: ', enable_camera);
     });
-
     // socket.on('request-camera', (name) => {
     //     console.log((name));
     //     for( var i = 0; i < list_join.length; i++){                          
