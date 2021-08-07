@@ -1,0 +1,20 @@
+{
+  "name": "05a_nodejs_zoom",
+  "version": "1.0.0",
+  "description": "1. create a new node project such as named nodeServer\r 2. Type command : npm init\r 3. Edit file package.json, don't forget put start amd engines\r 4. Install express : npm install express --save \r 5. Install socket io : npm install socket.io --save\r 6. Create index.js\r 7. Create file for heroku : Procfile\r 8. To test, Run the server: node index.js\r 9. Go to heroku page, create new app\r 10. Follow the instruction to deploy this server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.16.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3",
+    "uuid": "^8.3.2"
+  }
+}
