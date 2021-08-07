@@ -6,5 +6,5 @@
 6. Create index.js
 7. To test, Run the server: node index.js
 8. For access in public, you may deployed at heroku app. Create file for heroku : Procfile
-9. Go to heroku page, create new app.
-10. Follow the instruction from heroku to deploy this server
+9. Go to heroku page, login/sign up and create new app.
+10. Follow the instruction from heroku to deploy this program to their server.
